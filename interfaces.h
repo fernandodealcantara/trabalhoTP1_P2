@@ -1,8 +1,8 @@
 #ifndef INTERFACES_H_INCLUDED
 #define INTERFACES_H_INCLUDED
 
-#include "./libs/dominios.h"
-#include "./libs/entidades.h"
+#include "./bibliotecas/dominios.h"
+#include "./bibliotecas/entidades.h"
 
 class IServicoAutenticacao;
 class IServicoUsuario;
@@ -13,11 +13,11 @@ public:
     virtual bool autenticar(Email*) = 0;
     virtual void setCntrServicoAutenticacao(IServicoAutenticacao*) = 0;
     virtual ~IApresentacaoAutenticacao(){}
- };
+};
 
 class IApresentacaoUsuario {
 public:
-    virtual void executar() = 0;
+    virtual void cadastrar() = 0;
     virtual void executar(Email) = 0;
     virtual void setCntrServicoUsuario(IServicoUsuario*) = 0;
     virtual ~IApresentacaoUsuario(){}
@@ -25,8 +25,8 @@ public:
 
 class IApresentacaoImovel {
 public:
-    virtual void executar() = 0;
-    virtual void executar(Email) = 0;
+    virtual void cadastrar() = 0;
+    virtual void executar(Codigo) = 0;
     virtual void setCntrServicoImovel(IServicoImovel*) = 0;
     virtual ~IApresentacaoImovel(){}
 };
@@ -42,7 +42,7 @@ public:
     virtual bool cadastrar(Usuario) = 0;
     virtual bool descadastrar(Email) = 0;
     virtual bool alterar(Usuario) = 0;
-    virtual recuperar(Usuario) = 0;
+    virtual bool recuperar(Usuario) = 0;
     virtual ~IServicoUsuario(){}
 };
 
