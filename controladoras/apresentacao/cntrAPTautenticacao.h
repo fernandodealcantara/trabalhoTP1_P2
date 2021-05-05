@@ -1,12 +1,16 @@
 #ifndef CONTROLADORAAPTAUTENTICACAO_H_INCLUDED
 #define CONTROLADORAAPTAUTENTICACAO_H_INCLUDED
 
+#include <conio.h>
+#include <iostream>
 #include <string.h>
-#include "../../bibliotecas/curses.h"
+
 #include "../../bibliotecas/dominios.h"
 #include "../../bibliotecas/entidades.h"
 #include "../../interfaces.h"
 
+#define CLR_SCR system("cls");
+// 190125586
 class CntrApresentacaoAutenticacao:public IApresentacaoAutenticacao{
 private:
     IServicoAutenticacao *cntr;

@@ -1,37 +1,28 @@
 #include "cntrAPTautenticacao.h"
 
 bool CntrApresentacaoAutenticacao::autenticar(Email *email) {
-    char texto1[]="Digite o Email  : ";
+    char texto1[]="Digite o email: ";
     char texto2[]="Digite a senha: ";
-    char texto3[]="Dado em formato incorreto. Digite algo.";
 
-    char campo1[80], campo2[80];
-
-    int linha, coluna;
-
-    getmaxyx(stdscr, linha, coluna);
+    string campo1, campo2;
 
     Senha senha;
 
-    echo();
-
     while(true) {
-        clear();
-        mvprintw(linha/4, coluna/4, "%s", texto1);
-        getstr(campo1);
-        mvprintw(linha/4 + 2, coluna/4, "%s", texto2);
-        getstr(campo2);
+        CLR_SCR;
+
+        cout << texto1;
+        getline(cin, campo1);
+        cout << texto2;
+        getline(cin, campo2);
 
         try {
-            email->setEmail(string(campo1));
-            senha.setSenha(string(campo2));
+            email->setEmail(campo1);
+            senha.setSenha(campo2);
             break;
         } catch (invalid_argument &exp) {
-            clear();
-            mvprintw(linha/4, coluna/4, "%s", texto3);
-            noecho();
-            getch();
-            echo();
+            CLR_SCR;
+            return false;
         }
     }
     return (cntr->autenticar(*email, senha));

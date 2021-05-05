@@ -1,0 +1,284 @@
+# depslib dependency file v1.0
+1616908746 source:c:\users\fernando\desktop\trabalho\bibliotecas\dominios.cpp
+	<iostream>
+	<regex>
+	"dominios.h"
+
+1616908746 c:\users\fernando\desktop\trabalho\bibliotecas\dominios.h
+	<stdexcept>
+
+1616908746 source:c:\users\fernando\desktop\trabalho\bibliotecas\entidades.cpp
+	"entidades.h"
+
+1616908746 c:\users\fernando\desktop\trabalho\bibliotecas\entidades.h
+	"dominios.h"
+	<string>
+
+1619674277 source:c:\users\fernando\desktop\trabalho\controladoras\apresentacao\cntraptautenticacao.cpp
+	"cntrAPTautenticacao.h"
+
+1619931424 c:\users\fernando\desktop\trabalho\controladoras\apresentacao\cntraptautenticacao.h
+	<conio.h>
+	<iostream>
+	<string.h>
+	"../../bibliotecas/dominios.h"
+	"../../bibliotecas/entidades.h"
+	"../../interfaces.h"
+
+1619792152 c:\users\fernando\desktop\trabalho\interfaces.h
+	<list>
+	"./bibliotecas/dominios.h"
+	"./bibliotecas/entidades.h"
+
+1619764235 source:c:\users\fernando\desktop\trabalho\controladoras\apresentacao\cntraptcontrole.cpp
+	"cntrAPTcontrole.h"
+
+1619931336 c:\users\fernando\desktop\trabalho\controladoras\apresentacao\cntraptcontrole.h
+	<conio.h>
+	<iostream>
+	<string.h>
+	"../../bibliotecas/dominios.h"
+	"../../bibliotecas/entidades.h"
+	"../../interfaces.h"
+
+1619898275 source:c:\users\fernando\desktop\trabalho\controladoras\apresentacao\cntraptimovel.cpp
+	"cntrAPTimovel.h"
+
+1619764268 source:c:\users\fernando\desktop\trabalho\controladoras\apresentacao\cntraptusuario.cpp
+	"cntrAPTusuario.h"
+
+1619100073 source:c:\users\fernando\desktop\trabalho\controladoras\servico\cntrsvcautenticacao.cpp
+	"cntrSVCautenticacao.h"
+
+1619931502 c:\users\fernando\desktop\trabalho\controladoras\servico\cntrsvcautenticacao.h
+	<iostream>
+	<conio.h>
+	<string.h>
+	"../../bibliotecas/dominios.h"
+	"../../bibliotecas/entidades.h"
+	"../../interfaces.h"
+	"../../acessoDB.h"
+
+1619051259 c:\users\fernando\desktop\trabalho\database\acessodb.h
+	"../bibliotecas/dominios.h"
+	"../bibliotecas/entidades.h"
+	<list>
+	<string>
+	<stdio.h>
+	"../bibliotecas/sqlite3.h"
+
+1604950704 c:\users\fernando\desktop\trabalho\bibliotecas\sqlite3.h
+	<stdarg.h>
+
+1619792231 source:c:\users\fernando\desktop\trabalho\controladoras\servico\cntrsvcimovel.cpp
+	"cntrSVCimovel.h"
+
+1619763172 source:c:\users\fernando\desktop\trabalho\controladoras\servico\cntrsvcusuario.cpp
+	"cntrSVCusuario.h"
+
+1619057319 source:c:\users\fernando\desktop\trabalho\database\acessodb.cpp
+	"acessoDB.h"
+
+1619148447 source:c:\users\fernando\desktop\trabalho\main.cpp
+	<string.h>
+	<stdexcept>
+	<iostream>
+	<cstdlib>
+	"bibliotecas/dominios.h"
+	"interfaces.h"
+	"./controladoras/apresentacao/cntrAPTcontrole.h"
+	"./controladoras/apresentacao/cntrAPTautenticacao.h"
+	"./controladoras/apresentacao/cntrAPTusuario.h"
+	"./controladoras/apresentacao/cntrAPTimovel.h"
+	"./controladoras/servico/cntrSVCautenticacao.h"
+	"./controladoras/servico/cntrSVCusuario.h"
+	"./controladoras/servico/cntrSVCimovel.h"
+
+1619792974 source:c:\users\fernando\desktop\trabalho\acessodb.cpp
+	"acessoDB.h"
+
+1619792085 c:\users\fernando\desktop\trabalho\acessodb.h
+	"./bibliotecas/dominios.h"
+	"./bibliotecas/entidades.h"
+	<list>
+	<iostream>
+	<conio.h>
+	<string>
+	<stdio.h>
+	"./bibliotecas/sqlite3.h"
+
+1619931472 c:\users\fernando\desktop\trabalho\controladoras\servico\cntrsvcusuario.h
+	<iostream>
+	<conio.h>
+	<string.h>
+	<list>
+	"../../bibliotecas/dominios.h"
+	"../../bibliotecas/entidades.h"
+	"../../interfaces.h"
+	"../../acessoDB.h"
+
+1619931397 c:\users\fernando\desktop\trabalho\controladoras\apresentacao\cntraptusuario.h
+	<conio.h>
+	<iostream>
+	<string.h>
+	"../../bibliotecas/dominios.h"
+	"../../bibliotecas/entidades.h"
+	"../../interfaces.h"
+
+1619931382 c:\users\fernando\desktop\trabalho\controladoras\apresentacao\cntraptimovel.h
+	<conio.h>
+	<iostream>
+	<string.h>
+	<algorithm>
+	<list>
+	<iterator>
+	"../../bibliotecas/dominios.h"
+	"../../bibliotecas/entidades.h"
+	"../../interfaces.h"
+
+1619931505 c:\users\fernando\desktop\trabalho\controladoras\servico\cntrsvcimovel.h
+	<iostream>
+	<conio.h>
+	<string.h>
+	<list>
+	"../../bibliotecas/dominios.h"
+	"../../bibliotecas/entidades.h"
+	"../../interfaces.h"
+	"../../acessoDB.h"
+
+1619792976 source:c:\users\fernando\desktop\t2-tp1-190084197-190125586-190129794\trabalho\acessodb.cpp
+	"acessoDB.h"
+
+1619792086 c:\users\fernando\desktop\t2-tp1-190084197-190125586-190129794\trabalho\acessodb.h
+	"./bibliotecas/dominios.h"
+	"./bibliotecas/entidades.h"
+	<list>
+	<iostream>
+	<conio.h>
+	<string>
+	<stdio.h>
+	"./bibliotecas/sqlite3.h"
+
+1616908746 c:\users\fernando\desktop\t2-tp1-190084197-190125586-190129794\trabalho\bibliotecas\dominios.h
+	<stdexcept>
+
+1616908746 c:\users\fernando\desktop\t2-tp1-190084197-190125586-190129794\trabalho\bibliotecas\entidades.h
+	"dominios.h"
+	<string>
+
+1604950704 c:\users\fernando\desktop\t2-tp1-190084197-190125586-190129794\trabalho\bibliotecas\sqlite3.h
+	<stdarg.h>
+
+1616908746 source:c:\users\fernando\desktop\t2-tp1-190084197-190125586-190129794\trabalho\bibliotecas\dominios.cpp
+	<iostream>
+	<regex>
+	"dominios.h"
+
+1616908746 source:c:\users\fernando\desktop\t2-tp1-190084197-190125586-190129794\trabalho\bibliotecas\entidades.cpp
+	"entidades.h"
+
+1619674278 source:c:\users\fernando\desktop\t2-tp1-190084197-190125586-190129794\trabalho\controladoras\apresentacao\cntraptautenticacao.cpp
+	"cntrAPTautenticacao.h"
+
+1619931426 c:\users\fernando\desktop\t2-tp1-190084197-190125586-190129794\trabalho\controladoras\apresentacao\cntraptautenticacao.h
+	<conio.h>
+	<iostream>
+	<string.h>
+	"../../bibliotecas/dominios.h"
+	"../../bibliotecas/entidades.h"
+	"../../interfaces.h"
+
+1619792154 c:\users\fernando\desktop\t2-tp1-190084197-190125586-190129794\trabalho\interfaces.h
+	<list>
+	"./bibliotecas/dominios.h"
+	"./bibliotecas/entidades.h"
+
+1619764236 source:c:\users\fernando\desktop\t2-tp1-190084197-190125586-190129794\trabalho\controladoras\apresentacao\cntraptcontrole.cpp
+	"cntrAPTcontrole.h"
+
+1619931338 c:\users\fernando\desktop\t2-tp1-190084197-190125586-190129794\trabalho\controladoras\apresentacao\cntraptcontrole.h
+	<conio.h>
+	<iostream>
+	<string.h>
+	"../../bibliotecas/dominios.h"
+	"../../bibliotecas/entidades.h"
+	"../../interfaces.h"
+
+1619898276 source:c:\users\fernando\desktop\t2-tp1-190084197-190125586-190129794\trabalho\controladoras\apresentacao\cntraptimovel.cpp
+	"cntrAPTimovel.h"
+
+1619931384 c:\users\fernando\desktop\t2-tp1-190084197-190125586-190129794\trabalho\controladoras\apresentacao\cntraptimovel.h
+	<conio.h>
+	<iostream>
+	<string.h>
+	<algorithm>
+	<list>
+	<iterator>
+	"../../bibliotecas/dominios.h"
+	"../../bibliotecas/entidades.h"
+	"../../interfaces.h"
+
+1619764270 source:c:\users\fernando\desktop\t2-tp1-190084197-190125586-190129794\trabalho\controladoras\apresentacao\cntraptusuario.cpp
+	"cntrAPTusuario.h"
+
+1619931398 c:\users\fernando\desktop\t2-tp1-190084197-190125586-190129794\trabalho\controladoras\apresentacao\cntraptusuario.h
+	<conio.h>
+	<iostream>
+	<string.h>
+	"../../bibliotecas/dominios.h"
+	"../../bibliotecas/entidades.h"
+	"../../interfaces.h"
+
+1619100074 source:c:\users\fernando\desktop\t2-tp1-190084197-190125586-190129794\trabalho\controladoras\servico\cntrsvcautenticacao.cpp
+	"cntrSVCautenticacao.h"
+
+1619931504 c:\users\fernando\desktop\t2-tp1-190084197-190125586-190129794\trabalho\controladoras\servico\cntrsvcautenticacao.h
+	<iostream>
+	<conio.h>
+	<string.h>
+	"../../bibliotecas/dominios.h"
+	"../../bibliotecas/entidades.h"
+	"../../interfaces.h"
+	"../../acessoDB.h"
+
+1619792232 source:c:\users\fernando\desktop\t2-tp1-190084197-190125586-190129794\trabalho\controladoras\servico\cntrsvcimovel.cpp
+	"cntrSVCimovel.h"
+
+1619931506 c:\users\fernando\desktop\t2-tp1-190084197-190125586-190129794\trabalho\controladoras\servico\cntrsvcimovel.h
+	<iostream>
+	<conio.h>
+	<string.h>
+	<list>
+	"../../bibliotecas/dominios.h"
+	"../../bibliotecas/entidades.h"
+	"../../interfaces.h"
+	"../../acessoDB.h"
+
+1619763174 source:c:\users\fernando\desktop\t2-tp1-190084197-190125586-190129794\trabalho\controladoras\servico\cntrsvcusuario.cpp
+	"cntrSVCusuario.h"
+
+1619931474 c:\users\fernando\desktop\t2-tp1-190084197-190125586-190129794\trabalho\controladoras\servico\cntrsvcusuario.h
+	<iostream>
+	<conio.h>
+	<string.h>
+	<list>
+	"../../bibliotecas/dominios.h"
+	"../../bibliotecas/entidades.h"
+	"../../interfaces.h"
+	"../../acessoDB.h"
+
+1619148448 source:c:\users\fernando\desktop\t2-tp1-190084197-190125586-190129794\trabalho\main.cpp
+	<string.h>
+	<stdexcept>
+	<iostream>
+	<cstdlib>
+	"bibliotecas/dominios.h"
+	"interfaces.h"
+	"./controladoras/apresentacao/cntrAPTcontrole.h"
+	"./controladoras/apresentacao/cntrAPTautenticacao.h"
+	"./controladoras/apresentacao/cntrAPTusuario.h"
+	"./controladoras/apresentacao/cntrAPTimovel.h"
+	"./controladoras/servico/cntrSVCautenticacao.h"
+	"./controladoras/servico/cntrSVCusuario.h"
+	"./controladoras/servico/cntrSVCimovel.h"
+
